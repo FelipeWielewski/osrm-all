@@ -1,0 +1,8 @@
+web:
+  container_name: osrm-roadfy
+  image: osrm-roadfy
+  #build: .
+  ports:
+    - "5000:5000"
+  expose:
+    - "5000"
